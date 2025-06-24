@@ -1,66 +1,67 @@
-# Car Rental Laravel Project
+# PT.IndustriGolfInd
 
-This is a car rental project developed for the graduation Project. It is built using the Laravel framework and provides a web application for managing car rental operations.
+📌 _Laravel-based web application for Golf Car Rental Management System._
 
-## Live website:
+---
 
-- check live website [here](https://realrentcar.galdi.dev/)
+## 🇮🇩 Deskripsi Singkat (Bahasa Indonesia)
 
-## Features
+**PT.IndustriGolfInd** adalah aplikasi web berbasis Laravel untuk mempermudah proses penyewaan mobil golf. Proyek ini dibuat sebagai bagian dari tugas akhir dan dilengkapi dengan sistem reservasi, manajemen mobil, serta panel admin.
 
--   User Registration and Authentication
--   Car Listing and Management
--   Rental Booking and Management
--   Admin Panel for managing cars, bookings, and users
+## 🇬🇧 Brief Description (English)
 
+**PT.IndustriGolfInd** is a Laravel-based web application developed for managing golf car rental services. It features booking management, car listings, and an admin control panel for efficient operations.
 
-## Interfaces:
+---
 
-- User
+## ✨ Fitur Utama / Key Features
 
-![Alt text](public/user_interface.gif)
+| 🇮🇩 Bahasa Indonesia           | 🇬🇧 English                        |
+|------------------------------|------------------------------------|
+| ✅ Registrasi & Login         | ✅ User Registration & Login       |
+| ✅ Booking Mobil Golf         | ✅ Golf Car Booking                |
+| ✅ Upload Bukti Pembayaran    | ✅ Payment Proof Upload            |
+| ✅ Panel Admin Lengkap        | ✅ Full-featured Admin Panel       |
+| ✅ Notifikasi & Redirect      | ✅ Redirect + Notification System  |
 
-- Admin
+---
 
-![Alt text](public/admin_interface.gif)
+## 🖼️ Antarmuka / Interface Previews
 
+> Ganti link gambar dengan screenshot milikmu
 
+### 🎯 User Interface
+![User Interface](public/user_interface.jpg)
 
+### 🔧 Admin Panel
+![Admin Panel](public/admin_interface.jpg)
 
-## Installation
+---
 
-1. Clone the repository: https://github.com/Mohamed-Galdi/RealRentCar
+## ⚙️ Instalasi / Installation
 
-2. Navigate to the project directory: `cd RealRentCar`
+```bash
+# 1. Clone repository
+git clone https://github.com/Yorichi154/PT.IndustriGolfInd.git
 
-3. Install the dependencies using Composer: `composer install`
+# 2. Masuk folder project / Enter project folder
+cd PT.IndustriGolfInd
 
-4. Create a copy of the `.env.example` file and rename it to `.env`. Configure the database settings in the `.env` file.
+# 3. Install dependency Laravel
+composer install
 
-<!-- 5. Generate an application key: `php artisan key:generate` -->
+# 4. Copy dan konfigurasi .env
+cp .env.example .env
+# Edit DB settings di file .env
 
-5. Run the database migrations: `php artisan migrate`
+# 5. Generate application key
+php artisan key:generate
 
-7. Seed database cars table: `php artisan db:seed --class=CarSeeder`
+# 6. Migrasi database
+php artisan migrate
 
-8. Seed the database users table with a Demo admin: `php artisan db:seed --class=adminDemo` (login as admin at '/admin')
+# 7. (Opsional) Seed database
+php artisan db:seed
 
-9. `npm install` && `npm run dev`
-
-10. Create the symbolic link: `php artisan storage:link`
-
-11. Start the development server: `php artisan serve`
-
-12. Visit `http://localhost:8000` in your browser to access the application.
-
-## Usage
-
--   Register a user account or login with existing credentials.
--   Explore the available cars and their details.
--   Make a booking by selecting a car and providing the required information.
--   Admin users can access the admin panel by visiting `http://localhost:8000/admin` and using their credentials.
--   Admins can manage cars, bookings, and users through the admin panel.
-
-## Contributing
-
-We welcome contributions to enhance the project! If you find any issues or have suggestions, please open an issue or submit a pull request.
+# 8. Jalankan server lokal
+php artisan serve
