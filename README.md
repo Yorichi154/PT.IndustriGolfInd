@@ -24,20 +24,6 @@
 | ✅ Panel Admin Lengkap        | ✅ Full-featured Admin Panel       |
 | ✅ Notifikasi & Redirect      | ✅ Redirect + Notification System  |
 
----
-
-## 🖼️ Antarmuka / Interface Previews
-
-> Ganti link gambar dengan screenshot milikmu
-
-### 🎯 User Interface
-![User Interface](public/user_interface.jpg)
-
-### 🔧 Admin Panel
-![Admin Panel](public/admin_interface.jpg)
-
----
-
 ## ⚙️ Instalasi / Installation
 
 ```bash
